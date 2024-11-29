@@ -1,4 +1,4 @@
-package com.gustavo.controler;
+package com.gustavo.controller;
 
 import com.gustavo.dto.CourseDTO;
 import com.gustavo.dto.CoursePageDTO;
