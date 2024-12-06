@@ -19,7 +19,7 @@ public class CrudSpringApplication {
    @Bean
    @Profile({"dev"})
    CommandLineRunner initDatabase(CourseRepository courseRepository) {
-      return (args) -> {
+      return args -> {
          courseRepository.deleteAll();
 
          for(int i = 0; i < 20; ++i) {
